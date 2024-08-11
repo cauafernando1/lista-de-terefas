@@ -1,0 +1,38 @@
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2b2b;
+}
+.dados{
+    background: #ffffff66;
+    width: 410px;
+    padding: 70px;
+    border-radius: 15px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    gap: 30px;
+}
+.dados h1{ 
+    font-size: 40px;
+    color: #00507e;
+}
+.dados a{
+    text-decoration: none;
+    color: #0082ce;
+}
+
+@media (max-width: 500px){
+    .dados{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+}
